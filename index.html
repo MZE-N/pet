@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pet - Votre compagnon de révision intelligent utilisant la répétition espacée et l'IA.">
+    <title>Pet - Compagnon de Révision Intelligent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="icon.png" alt="Pet Logo" class="logo-img">
+                <span>Pet</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#how-it-works">Comment ça marche</a>
+                <a href="docs.html">Documentation</a>
+                <a href="https://github.com/MZE-N/pet" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                <a href="https://github.com/MZE-N/pet/releases/latest" class="btn btn-primary">
+                    <i class="ri-download-line"></i> Télécharger
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <div class="badge"><i class="ri-rocket-line"></i> Nouvelle Version v1.0</div>
+                <h1>Maîtrisez vos études avec la <span class="text-gradient">Révision Intelligente</span></h1>
+                <p>Pet combine répétition espacée, quiz générés par IA et gamification pour vous aider à apprendre plus vite et retenir mieux.</p>
+                <div class="hero-btns">
+                    <a href="https://github.com/MZE-N/pet/releases/latest" class="btn btn-primary btn-lg">
+                        <i class="ri-windows-fill"></i> Télécharger pour Windows
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-lg">En savoir plus</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal delay-200">
+                <div class="floating-ui">
+                    <div class="card card-main">
+                        <div class="card-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="stat-row">
+                                <div class="stat-item">
+                                    <span class="label">Série</span>
+                                    <span class="value">🔥 12 Jours</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="label">Niveau</span>
+                                    <span class="value">⭐ 5</span>
+                                </div>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-label">
+                                    <span>Progression Quotidienne</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="review-items">
+                                <div class="review-item">
+                                    <i class="ri-checkbox-circle-fill text-green"></i>
+                                    <span>Mathématiques</span>
+                                </div>
+                                <div class="review-item">
+                                    <i class="ri-checkbox-circle-fill text-green"></i>
+                                    <span>Histoire</span>
+                                </div>
+                                <div class="review-item">
+                                    <i class="ri-time-line text-blue"></i>
+                                    <span>Anglais</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-float card-float-1">
+                        <i class="ri-brain-line icon-large text-purple"></i>
+                        <span>Mémoire +</span>
+                    </div>
+                    <div class="card card-float card-float-2">
+                        <i class="ri-magic-line icon-large text-yellow"></i>
+                        <span>IA Générative</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Tout ce dont vous avez besoin pour exceller</h2>
+                <p>Une suite complète d'outils conçus pour transformer votre façon d'apprendre.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal delay-100">
+                    <div class="icon-box blue">
+                        <i class="ri-brain-line"></i>
+                    </div>
+                    <h3>Répétition Espacée</h3>
+                    <p>Des plannings de révision optimisés pour maximiser la rétention à long terme grâce à des algorithmes prouvés.</p>
+                </div>
+                <div class="feature-card reveal delay-200">
+                    <div class="icon-box yellow">
+                        <i class="ri-sparkling-2-line"></i>
+                    </div>
+                    <h3>Génération par IA</h3>
+                    <p>Générez instantanément des quiz et des flashcards à partir de vos notes grâce à l'IA Gemini.</p>
+                </div>
+                <div class="feature-card reveal delay-300">
+                    <div class="icon-box purple">
+                        <i class="ri-trophy-line"></i>
+                    </div>
+                    <h3>Gamification</h3>
+                    <p>Gagnez de l'XP, montez de niveau et débloquez des thèmes en maintenant votre série d'étude.</p>
+                </div>
+                <div class="feature-card reveal delay-100">
+                    <div class="icon-box green">
+                        <i class="ri-calendar-check-line"></i>
+                    </div>
+                    <h3>Planificateur</h3>
+                    <p>Un tableau de bord visuel pour suivre vos objectifs quotidiens et vos prochaines révisions.</p>
+                </div>
+                <div class="feature-card reveal delay-200">
+                    <div class="icon-box pink">
+                        <i class="ri-pen-nib-line"></i>
+                    </div>
+                    <h3>Tableau Blanc</h3>
+                    <p>Un espace de dessin intégré pour les apprenants visuels qui ont besoin de schématiser.</p>
+                </div>
+                <div class="feature-card reveal delay-300">
+                    <div class="icon-box orange">
+                        <i class="ri-file-list-3-line"></i>
+                    </div>
+                    <h3>Gestion de Notes</h3>
+                    <p>Organisez vos cours, chapitres et documents importés en un seul endroit centralisé.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-content reveal">
+                    <h2>Un flux de travail simple et puissant</h2>
+                    <ul class="steps-list">
+                        <li>
+                            <span class="step-number">1</span>
+                            <div>
+                                <h3>Créez un Espace</h3>
+                                <p>Organisez vos matières et cours dans des espaces dédiés.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">2</span>
+                            <div>
+                                <h3>Importez vos Notes</h3>
+                                <p>Collez votre texte ou importez des documents. L'IA de Pet les analyse instantanément.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-number">3</span>
+                            <div>
+                                <h3>Commencez à Réviser</h3>
+                                <p>Des sessions quotidiennes pour garder votre mémoire fraîche. Juste 15 min par jour.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="split-visual reveal delay-200">
+                    <div class="app-mockup">
+                        <div class="mockup-header">
+                            <div class="search-bar"></div>
+                            <div class="user-avatar"></div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="sidebar-mock">
+                                <div class="line w-50"></div>
+                                <div class="line w-70"></div>
+                                <div class="line w-60"></div>
+                            </div>
+                            <div class="content-mock">
+                                <div class="hero-card-mock"></div>
+                                <div class="grid-mock">
+                                    <div class="card-mock"></div>
+                                    <div class="card-mock"></div>
+                                    <div class="card-mock"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="icon.png" alt="Pet Logo" class="logo-img small">
+                    <span>Pet</span>
+                </div>
+                <div class="footer-links">
+                    <a href="docs.html">Documentation</a>
+                    <a href="https://github.com/MZE-N/pet" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                    <a href="https://github.com/MZE-N/pet/issues" target="_blank"><i class="ri-bug-line"></i> Signaler un Bug</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pet. Projet Open Source.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

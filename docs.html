@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentation Pet - Comment obtenir une clé API Google AI">
+    <title>Documentation - Pet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="icon.png" alt="Pet Logo" class="logo-img">
+                <span>Pet</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#features">Fonctionnalités</a>
+                <a href="index.html#how-it-works">Comment ça marche</a>
+                <a href="docs.html" class="active">Documentation</a>
+                <a href="https://github.com/MZE-N/pet" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                <a href="https://github.com/MZE-N/pet/releases/latest" class="btn btn-primary">
+                    <i class="ri-download-line"></i> Télécharger
+                </a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container docs-layout">
+        <aside class="docs-sidebar">
+            <nav class="docs-nav">
+                <h3>Commencer</h3>
+                <ul>
+                    <li><a href="#" class="active">Clé API Google AI</a></li>
+                    <!-- Future articles -->
+                    <!-- <li><a href="#">Importer des notes</a></li> -->
+                    <!-- <li><a href="#">Raccourcis clavier</a></li> -->
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="docs-content">
+            <article>
+                <header class="article-header">
+                    <h1 class="article-title">Comment obtenir une clé API Google AI (Gemini)</h1>
+                    <div class="article-meta">
+                        <span>Mis à jour le 21 Novembre 2025</span> • <span>Temps de lecture : 2 min</span>
+                    </div>
+                </header>
+
+                <div class="prose">
+                    <p>Pet utilise la puissance de l'intelligence artificielle de Google (Gemini) pour analyser vos notes et générer automatiquement des quiz et des flashcards pertinents. Pour que cela fonctionne, vous avez besoin d'une <strong>clé API</strong> gratuite.</p>
+                    
+                    <p>Suivez ces étapes simples pour obtenir votre clé en moins de 2 minutes.</p>
+
+                    <h2>Étape 1 : Accéder à Google AI Studio</h2>
+                    <p>Rendez-vous sur le site officiel de Google pour les développeurs IA : <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a>.</p>
+                    <p>Si vous n'êtes pas déjà connecté, connectez-vous avec votre compte Google habituel.</p>
+
+                    <h2>Étape 2 : Créer une clé API</h2>
+                    <p>Une fois sur le tableau de bord :</p>
+                    <ol>
+                        <li>Cliquez sur le bouton <strong>"Get API key"</strong> situé dans le menu de gauche (icône de clé).</li>
+                        <li>Cliquez sur le bouton bleu <strong>"Create API key"</strong>.</li>
+                        <li>Si demandé, choisissez un projet existant ou sélectionnez "Create API key in new project".</li>
+                    </ol>
+
+                    <h2>Étape 3 : Copier la clé</h2>
+                    <p>Une fenêtre va s'ouvrir affichant votre nouvelle clé API. Elle ressemble à une longue suite de caractères commençant par <code>AIza...</code>.</p>
+                    <p>Cliquez sur le bouton de copie à côté de la clé pour la copier dans votre presse-papiers.</p>
+                    <div class="icon-box yellow" style="width: auto; height: auto; padding: 1rem; border-radius: 0.5rem; display: flex; gap: 1rem; align-items: start;">
+                        <i class="ri-alert-line" style="font-size: 1.5rem;"></i>
+                        <div>
+                            <strong>Important :</strong> Ne partagez jamais cette clé avec personne. Elle est liée à votre compte Google.
+                        </div>
+                    </div>
+
+                    <h2>Étape 4 : Configurer Pet</h2>
+                    <p>Maintenant que vous avez votre clé :</p>
+                    <ol>
+                        <li>Ouvrez l'application <strong>Pet</strong>.</li>
+                        <li>Cliquez sur l'icône de <strong>Paramètres</strong> (roue dentée) en bas à gauche.</li>
+                        <li>Dans la section "Intelligence Artificielle", collez votre clé dans le champ <strong>"Clé API Google Gemini"</strong>.</li>
+                        <li>L'application enregistrera automatiquement votre clé.</li>
+                    </ol>
+
+                    <p>C'est tout ! Vous pouvez maintenant importer vos cours et laisser l'IA générer du contenu de révision pour vous.</p>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="icon.png" alt="Pet Logo" class="logo-img small">
+                    <span>Pet</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Accueil</a>
+                    <a href="https://github.com/MZE-N/pet" target="_blank"><i class="ri-github-fill"></i> GitHub</a>
+                    <a href="https://github.com/MZE-N/pet/issues" target="_blank"><i class="ri-bug-line"></i> Signaler un Bug</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pet. Projet Open Source.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
